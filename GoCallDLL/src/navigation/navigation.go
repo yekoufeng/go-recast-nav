@@ -9,7 +9,7 @@ package navigation
 import "C"
 import (
 	"container/list"
-	"linmath"
+	"go-recast-nav-github/GoCallDLL/src/linmath"
 	"unsafe"
 )
 

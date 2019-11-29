@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
-	"linmath"
-	"navigation"
+	"go-recast-nav-github/GoCallDLL/src/linmath"
+	"go-recast-nav-github/GoCallDLL/src/navigation"
 	"os"
 )
 
 func main() {
-	path := "E:\\go_project\\testRN\\recast navigation\\recastnavigation-1.5.1\\RecastDemo\\Bin\\Meshes\\nav_test.obj"
+	path := "F:\\t_work\\go-recast-nav-github\\recastnavigation-1.5.1\\RecastDemo\\Bin\\Meshes\\nav_test.obj"
 
 	nav := navigation.NewNavigation()
 	if ok := nav.LoadMap(path); !ok {
