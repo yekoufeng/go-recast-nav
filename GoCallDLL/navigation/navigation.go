@@ -1,7 +1,7 @@
 package navigation
 
 /*
-#cgo LDFLAGS: -L./ -lnavigation
+#cgo LDFLAGS: -L ../../bin -lnavigation
 #cgo CFLAGS:  -Wno-incompatible-pointer-types
 #include "./navigation.h"
 #include <stdlib.h>
@@ -9,7 +9,7 @@ package navigation
 import "C"
 import (
 	"container/list"
-	"go-recast-nav-github/GoCallDLL/src/linmath"
+	"go-recast-nav-github/GoCallDLL/linmath"
 	"unsafe"
 )
 

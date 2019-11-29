@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"go-recast-nav-github/GoCallDLL/src/linmath"
-	"go-recast-nav-github/GoCallDLL/src/navigation"
+	"go-recast-nav-github/GoCallDLL/linmath"
+	"go-recast-nav-github/GoCallDLL/navigation"
 	"os"
 )
 
